@@ -11,6 +11,7 @@ import static org.testng.Assert.assertEquals;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 
 public class NewTest {
@@ -18,7 +19,10 @@ public class NewTest {
 	@BeforeClass
 	public void launchApplication() {
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors","--disable-extensions","--no-sandbox","--disable-dev-shm-usage");
+		
+		driver = new ChromeDriver(options);
 		driver.get("http://demowebshop.tricentis.com/");
 		driver.manage().window().maximize();
 	}

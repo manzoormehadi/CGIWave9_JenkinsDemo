@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="demoTest.NewTest" time="2.498" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="demoTest.NewTest" time="2.615" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.1+12"/>
@@ -22,7 +22,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/manzoormehadi/StackRoute/Training Workspace/CGI/Wave9/Selenium/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2593678903854534477.tmp"/>
+    <property name="classworlds.conf" value="/home/manzoormehadi/StackRoute/Training Workspace/CGI/Wave9/Selenium/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf17155345280726693842.tmp"/>
     <property name="jansi.force" value="true"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
@@ -57,6 +57,6 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="Temurin-17.0.1+12"/>
   </properties>
-  <testcase classname="demoTest.NewTest" name="login" time="1.676"/>
-  <testcase classname="demoTest.NewTest" name="logout" time="0.822"/>
+  <testcase classname="demoTest.NewTest" name="login" time="1.823"/>
+  <testcase classname="demoTest.NewTest" name="logout" time="0.792"/>
 </testsuite>
