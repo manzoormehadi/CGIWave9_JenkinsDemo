@@ -32,7 +32,7 @@ public class NewTest {
 		driver.findElement(By.id("Email")).sendKeys("manz@mass.com");
 		driver.findElement(By.id("Password")).sendKeys("mass123");
 		driver.findElement(By.xpath("//input[@value='Log in']")).click();
-		String expected="manz@mass.com";
+		String expected="manz1@mass.com";
 		String actual =driver.findElement(By.linkText("manz@mass.com")).getText();
 		assertEquals(expected, actual);
 	}
