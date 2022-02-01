@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-01T12:14:54 IST" name="Default suite" finished-at="2022-02-01T12:15:03 IST" duration-ms="9139">
+  <suite started-at="2022-02-01T12:36:45 IST" name="Default suite" finished-at="2022-02-01T12:36:52 IST" duration-ms="7123">
     <groups>
     </groups>
-    <test started-at="2022-02-01T12:14:54 IST" name="Default test" finished-at="2022-02-01T12:15:03 IST" duration-ms="9139">
+    <test started-at="2022-02-01T12:36:45 IST" name="Default test" finished-at="2022-02-01T12:36:52 IST" duration-ms="7123">
       <class name="demoTest.NewTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:demoTest.NewTest@7fee8714]" started-at="2022-02-01T12:14:54 IST" name="launchApplication" finished-at="2022-02-01T12:14:59 IST" duration-ms="5663" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:demoTest.NewTest@7fee8714]" started-at="2022-02-01T12:36:45 IST" name="launchApplication" finished-at="2022-02-01T12:36:50 IST" duration-ms="4487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="login()[pri:0, instance:demoTest.NewTest@7fee8714]" started-at="2022-02-01T12:14:59 IST" name="login" finished-at="2022-02-01T12:15:02 IST" duration-ms="2491" status="PASS">
+        <test-method signature="login()[pri:0, instance:demoTest.NewTest@7fee8714]" started-at="2022-02-01T12:36:50 IST" name="login" finished-at="2022-02-01T12:36:51 IST" duration-ms="1684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="logout()[pri:0, instance:demoTest.NewTest@7fee8714]" started-at="2022-02-01T12:15:02 IST" name="logout" finished-at="2022-02-01T12:15:03 IST" duration-ms="885" status="PASS">
+        <test-method signature="logout()[pri:0, instance:demoTest.NewTest@7fee8714]" started-at="2022-02-01T12:36:51 IST" name="logout" finished-at="2022-02-01T12:36:52 IST" duration-ms="845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:demoTest.NewTest@7fee8714]" started-at="2022-02-01T12:15:03 IST" name="closeApplication" finished-at="2022-02-01T12:15:03 IST" duration-ms="59" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:demoTest.NewTest@7fee8714]" started-at="2022-02-01T12:36:52 IST" name="closeApplication" finished-at="2022-02-01T12:36:52 IST" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->

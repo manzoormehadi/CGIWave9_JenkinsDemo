@@ -18,8 +18,11 @@ public class NewTest {
 	WebDriver driver;
 	@BeforeClass
 	public void launchApplication() {
-		System.setProperty("webdriver.chrome.driver", "/home/manzoormehadi/StackRoute/Training Workspace/CGI/Wave9/Jar Files/chromedriver_linux64/chromedriver");
-		driver = new ChromeDriver();
+		WebDriverManager.chromedriver().setup();
+		ChromeOptions options = new ChromeOptions();
+		//options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors","--disable-extensions","--no-sandbox","--disable-dev-shm-usage");
+		options.setHeadless(true);
+		driver = new ChromeDriver(options);
 		driver.get("http://demowebshop.tricentis.com/");
 		driver.manage().window().maximize();
 	}
